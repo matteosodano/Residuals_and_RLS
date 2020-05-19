@@ -3,3 +3,10 @@ The goal is to reconstruct the contact forces exerted on the needle mounted on t
 Using the Recursive Least Squares (RLS) algorithm, the needle-tissue interaction force is estimated and the estimation error is analyzed to extract information about possible layer transitions.
 
 Laboratory data of a KUKA LWR IV+ robot manipulator with a needle mounted on the end-effector penetrating multi-layered gel and meat piece have been used.
+
+
+## Sensorless Reconstruction of Interaction Forces via Residual Method
+Consider the Lagrangian model of the robot
+$B(q) \ddot(q)$
+<img src="https://render.githubusercontent.com/render/math?math=d = B(q)  %2B 1">
+
