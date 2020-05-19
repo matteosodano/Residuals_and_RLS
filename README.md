@@ -10,3 +10,4 @@ Consider the Lagrangian model of the robot
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82364158-2e49d900-9a0f-11ea-8eac-5c818cfcfb00.png"> </p>
 
+where *F* is the vector of force and moment exerted by the environment on the tip of the needle and *J* is the geometric Jacobian of the manipulator at the contact point. We define *tau* as the joint torque caused by the contact.
