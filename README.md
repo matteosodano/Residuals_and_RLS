@@ -7,6 +7,5 @@ Laboratory data of a KUKA LWR IV+ robot manipulator with a needle mounted on the
 
 ## Sensorless Reconstruction of Interaction Forces via Residual Method
 Consider the Lagrangian model of the robot
-$B(q) \ddot(q)$
 <img src="https://render.githubusercontent.com/render/math?math=d = B(q)  %2B 1">
 
