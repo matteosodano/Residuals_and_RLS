@@ -8,5 +8,5 @@ Laboratory data of a KUKA LWR IV+ robot manipulator with a needle mounted on the
 ## Sensorless Reconstruction of Interaction Forces via Residual Method
 Consider the Lagrangian model of the robot
 
-<c> <img src="https://user-images.githubusercontent.com/62264708/82364158-2e49d900-9a0f-11ea-8eac-5c818cfcfb00.png"> </c>
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82364158-2e49d900-9a0f-11ea-8eac-5c818cfcfb00.png"> </p>
 
