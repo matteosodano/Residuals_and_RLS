@@ -12,10 +12,10 @@ Consider the Lagrangian model of the robot
 
 where <img src="https://user-images.githubusercontent.com/62264708/82365168-96e58580-9a10-11ea-9b0b-dcd5b3a197a4.png"> is the vector of force and moment exerted by the environment on the tip of the needle and <img src="https://user-images.githubusercontent.com/62264708/82365166-964cef00-9a10-11ea-9fe5-959235e5ea42.png"> is the geometric Jacobian of the manipulator at the contact point. The joint torque caused by the contact is defined as <img src="https://user-images.githubusercontent.com/62264708/82365169-96e58580-9a10-11ea-997b-eec5afa52792.png">.
 
-This contact joint torque is reconstructed by means of the residuals $r$, defined as
+This contact joint torque is reconstructed by means of the residuals <img src="https://user-images.githubusercontent.com/62264708/82499322-ca4c1100-9af1-11ea-9a43-0cd816f3a5c7.png">, defined as
 
-$r = ...$
-$rdot = ...$
+<img src="https://user-images.githubusercontent.com/62264708/82499323-ca4c1100-9af1-11ea-839c-468c86d721af.png">
+<img src="https://user-images.githubusercontent.com/62264708/82499324-cae4a780-9af1-11ea-9834-86357f6777da.png">
 
 where $p = B qdot$ is the generalized momentum. During free motion $r \approx 0$. When a contact happens, some entries of $r$ may vary (they will return to zero when the contact is lost). For large values of $K$, the evolution of $r$ will reproduce the evolution of $tau_c$.
 Finally, the force estimation:
