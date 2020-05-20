@@ -1,8 +1,8 @@
-# Needle-Tissue Interaction Force Estimation using Residuals and Interaction Models
+<img src="https://user-images.githubusercontent.com/62264708/82499693-6f66e980-9af2-11ea-98e4-6caa93df79ed.png"># Needle-Tissue Interaction Force Estimation using Residuals and Interaction Models
 The goal is to reconstruct the contact forces exerted on the needle mounted on the end-effector of a robot manipulator, in a sensorless fashion. This is been achieved considering that contact as a fault in the actuation system. The considered fault detection and isolation techniques are based on generalized momenta, which require proprioceptive sensors only. Then, a method for identifying rupture events is presented.
 Using the Recursive Least Squares (RLS) algorithm, the needle-tissue interaction force is estimated and the estimation error is analyzed to extract information about possible layer transitions.
 
-Laboratory data of a KUKA LWR IV+ robot manipulator with a needle mounted on the end-effector penetrating multi-layered gel and meat piece have been used.
+Laboratory data of a KUKA LWR IV+ robot manipulator with a needle mounted on<img src="https://user-images.githubusercontent.com/62264708/82499693-6f66e980-9af2-11ea-98e4-6caa93df79ed.png"> the end-effector penetrating multi-layered gel and meat piece have been used.
 
 
 ## Sensorless Reconstruction of Interaction Forces via Residual Method
@@ -20,12 +20,11 @@ This contact joint torque is reconstructed by means of the residuals <img src="h
 where <img src="https://user-images.githubusercontent.com/62264708/82499694-6f66e980-9af2-11ea-8871-4a6d3554f475.png"> is the generalized momentum. During free motion <img src="https://user-images.githubusercontent.com/62264708/82499696-6fff8000-9af2-11ea-9845-227efd7eabeb.png">. When a contact happens, some entries of <img src="https://user-images.githubusercontent.com/62264708/82499322-ca4c1100-9af1-11ea-9a43-0cd816f3a5c7.png"> may vary (they will return to zero when the contact is lost). For large values of <img src="https://user-images.githubusercontent.com/62264708/82499698-6fff8000-9af2-11ea-9f9d-3d065da0369a.png">, the evolution of <img src="https://user-images.githubusercontent.com/62264708/82499322-ca4c1100-9af1-11ea-9a43-0cd816f3a5c7.png"> will reproduce the evolution of <img src="https://user-images.githubusercontent.com/62264708/82499693-6f66e980-9af2-11ea-98e4-6caa93df79ed.png">.
 Finally, the force estimation:
 
-$Fhat_RES = JcT ^ -1 r$
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82499693-6f66e980-9af2-11ea-98e4-6caa93df79ed.png"> </p>
 
 The force estimation via residuals has been validated with the force measurement provided by the force/torque sensor mounted on the manipulator.
 
 For the implementation, the residual equation has been discretized as
 
-$r_k = ...$
-
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82499693-6f66e980-9af2-11ea-98e4-6caa93df79ed.png"> </p>
 ## Detection of Layer Transition
