@@ -4,6 +4,7 @@ Using the Recursive Least Squares (RLS) algorithm, the needle-tissue interaction
 
 Laboratory data of a KUKA LWR IV+ robot manipulator with a needle mounted on<img src="https://user-images.githubusercontent.com/62264708/82499693-6f66e980-9af2-11ea-98e4-6caa93df79ed.png"> the end-effector penetrating multi-layered gel and meat piece have been used.
 
+Implementation is done in MATLAB R2018b.
 
 ## Sensorless Reconstruction of Interaction Forces via Residual Method
 Consider the Lagrangian model of the robot
@@ -30,5 +31,6 @@ For the implementation, the residual equation has been discretized as
 <p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82500440-a984bb00-9af3-11ea-9f2d-a40d835503ad.png"> </p>
 
 ## Detection of Layer Transition
-<p align="center"> <img width="460" height="250" src="https://user-images.githubusercontent.com/62264708/82500665-19934100-9af4-11ea-9954-eb1ddd30c467.png"> </p>
-<p align="center"> Typical needle-tissue interaction force versus displacement. Five phases can be noticed: no contact (1), contact (2), layer rupture (3), tip and shaft insertion (4), retraction (5) </p>
+Typical needle-tissue interaction force versus displacement can be seen in the figure below. Five phases can be noticed: no contact (1), contact (2), layer rupture (3), tip and shaft insertion (4), retraction (5).
+
+<p align="center"> <img width="460" height="220" src="https://user-images.githubusercontent.com/62264708/82500665-19934100-9af4-11ea-9954-eb1ddd30c467.png"> </p>
