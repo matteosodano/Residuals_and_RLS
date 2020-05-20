@@ -17,7 +17,7 @@ This contact joint torque is reconstructed by means of the residuals <img src="h
 <p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82499323-ca4c1100-9af1-11ea-839c-468c86d721af.png"> </p>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82499324-cae4a780-9af1-11ea-9834-86357f6777da.png"> </p>
 
-where $p = B qdot$ is the generalized momentum. During free motion $r \approx 0$. When a contact happens, some entries of $r$ may vary (they will return to zero when the contact is lost). For large values of $K$, the evolution of $r$ will reproduce the evolution of $tau_c$.
+where <img src="https://user-images.githubusercontent.com/62264708/82499694-6f66e980-9af2-11ea-8871-4a6d3554f475.png"> is the generalized momentum. During free motion <img src="https://user-images.githubusercontent.com/62264708/82499696-6fff8000-9af2-11ea-9845-227efd7eabeb.png">. When a contact happens, some entries of <img src="https://user-images.githubusercontent.com/62264708/82499322-ca4c1100-9af1-11ea-9a43-0cd816f3a5c7.png"> may vary (they will return to zero when the contact is lost). For large values of <img src="https://user-images.githubusercontent.com/62264708/82499698-6fff8000-9af2-11ea-9f9d-3d065da0369a.png">, the evolution of <img src="https://user-images.githubusercontent.com/62264708/82499322-ca4c1100-9af1-11ea-9a43-0cd816f3a5c7.png"> will reproduce the evolution of <img src="https://user-images.githubusercontent.com/62264708/82499693-6f66e980-9af2-11ea-98e4-6caa93df79ed.png">.
 Finally, the force estimation:
 
 $Fhat_RES = JcT ^ -1 r$
