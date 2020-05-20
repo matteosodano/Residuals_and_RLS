@@ -30,6 +30,6 @@ For the implementation, the residual equation has been discretized as
 <p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82500440-a984bb00-9af3-11ea-9f2d-a40d835503ad.png"> </p>
 
 ## Detection of Layer Transition
-<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82500665-19934100-9af4-11ea-9954-eb1ddd30c467.png"> </p>
+<p align="center"> <img width="460" height="300" src="https://user-images.githubusercontent.com/62264708/82500665-19934100-9af4-11ea-9954-eb1ddd30c467.png"> </p>
 
 <p align="center"> Typical needle-tissue interaction force versus displacement. Five phases can be noticed: no contact (1), contact (2), layer rupture (3), tip and shaft insertion (4), retraction (5) </p>
