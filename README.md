@@ -36,8 +36,8 @@ Typical needle-tissue interaction force versus displacement can be seen in the f
 <p align="center"> <img width="460" height="240" src="https://user-images.githubusercontent.com/62264708/82500665-19934100-9af4-11ea-9954-eb1ddd30c467.png"> </p>
 
 ### Interaction Model
-The interaction force <p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82364158-2e49d900-9a0f-11ea-8eac-5c818cfcfb00.png"> </p> is described by means of the Kelvin-Voigt generalized model, that captures both the elastic force due to the resistance of the layer surface to the needle insertion and the damping force due to the viscous friction along the needle:
+The interaction force <img src="https://user-images.githubusercontent.com/62264708/82610756-3ea0b600-9bbf-11ea-954c-22a4b979114a.png"> is described by means of the Kelvin-Voigt generalized model, that captures both the elastic force due to the resistance of the layer surface to the needle insertion and the damping force due to the viscous friction along the needle:
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82364158-2e49d900-9a0f-11ea-8eac-5c818cfcfb00.png"> </p>
-<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82364158-2e49d900-9a0f-11ea-8eac-5c818cfcfb00.png"> </p>
-<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82364158-2e49d900-9a0f-11ea-8eac-5c818cfcfb00.png"> </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82610866-7dcf0700-9bbf-11ea-87f5-0ccc2fa32872.png"> </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82610758-3f394c80-9bbf-11ea-8e74-d57de8b5995c.png"> </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82610760-3fd1e300-9bbf-11ea-9a6f-ffc995298c12.png"> </p>
