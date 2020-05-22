@@ -2,7 +2,7 @@
 The goal is to reconstruct the contact forces exerted on the needle mounted on the end-effector of a robot manipulator, in a sensorless fashion. This is been achieved considering that contact as a fault in the actuation system. The considered fault detection and isolation techniques are based on generalized momenta, which require proprioceptive sensors only. Then, a method for identifying rupture events is presented.
 Using the Recursive Least Squares (RLS) algorithm, the needle-tissue interaction force is estimated and the estimation error is analyzed to extract information about possible layer transitions.
 
-Laboratory data of a KUKA LWR IV+ robot manipulator with a needle mounted on<img src="https://user-images.githubusercontent.com/62264708/82499693-6f66e980-9af2-11ea-98e4-6caa93df79ed.png"> the end-effector penetrating multi-layered gel and meat piece have been used.
+Laboratory data of a KUKA LWR IV+ robot manipulator with a needle mounted on <img src="https://user-images.githubusercontent.com/62264708/82499693-6f66e980-9af2-11ea-98e4-6caa93df79ed.png"> the end-effector penetrating multi-layered gel and meat piece have been used.
 
 Implementation is done in MATLAB R2018b.
 
