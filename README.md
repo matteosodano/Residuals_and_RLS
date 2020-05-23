@@ -41,3 +41,20 @@ Call <img src="https://user-images.githubusercontent.com/62264708/82611030-e0c09
 <p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82610866-7dcf0700-9bbf-11ea-87f5-0ccc2fa32872.png"> </p>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82610758-3f394c80-9bbf-11ea-8e74-d57de8b5995c.png"> </p>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82610760-3fd1e300-9bbf-11ea-9a6f-ffc995298c12.png"> </p>
+
+### Interaction Force Prediction
+The Recursive Least Squares (RLS) algorithm used to estimate the Kelvin-Voigt parameters and their covariance matrix is
+
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82610866-7dcf0700-9bbf-11ea-87f5-0ccc2fa32872.png"> </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82610866-7dcf0700-9bbf-11ea-87f5-0ccc2fa32872.png"> </p>
+
+
+leading to the estimate interaction force:
+
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82610866-7dcf0700-9bbf-11ea-87f5-0ccc2fa32872.png"> </p>
+
+The estimation error can be defined as
+
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82610866-7dcf0700-9bbf-11ea-87f5-0ccc2fa32872.png"> </p>
+
+### Layer Transition
