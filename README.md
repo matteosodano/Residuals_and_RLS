@@ -67,6 +67,6 @@ Inspecting the estimation error, informations about layer ruptures can be found.
 is introduced. If
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82727505-2fb72200-9ceb-11ea-987b-68ab7386b857.png"> </p>
-<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82725958-11e4bf80-9ce1-11ea-88eb-39ba58928179.png"> </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82727613-e1eee980-9ceb-11ea-9994-5ddcbae67f92.png"> </p>
 
-then a layer ruptures is supposed to occur. The parameters <p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82725958-11e4bf80-9ce1-11ea-88eb-39ba58928179.png"> </p> and <p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82725958-11e4bf80-9ce1-11ea-88eb-39ba58928179.png"> </p> are the variance of the error function in the default and abrupt change case.
+then a layer ruptures is supposed to occur. The parameters <img src="https://user-images.githubusercontent.com/62264708/82727616-e5827080-9ceb-11ea-8f29-e83d29d6597a.png"> and <img src="https://user-images.githubusercontent.com/62264708/82727617-e61b0700-9ceb-11ea-89df-21128d6977c8.png"> are the variance of the error function in the default and abrupt change case.
