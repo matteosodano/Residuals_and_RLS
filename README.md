@@ -58,3 +58,12 @@ The estimation error can be defined as
 <p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82725958-11e4bf80-9ce1-11ea-88eb-39ba58928179.png"> </p>
 
 ### Layer Transition
+Inspecting the estimation error, informations about layer ruptures can be found. As a matter of fact, neglecting modelling errors, disturbances and noise, the estimated force should reconstruct well the measured force unless an abrupt change happens: typically, this is due to a layer rupture. The decision function
+
+$$
+
+is introduced. If
+
+$$
+
+then a layer ruptures is supposed to occur. The parameters $$ and $$ are the variance of the error function in the default and abrupt change case.
