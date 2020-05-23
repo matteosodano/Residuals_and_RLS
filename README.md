@@ -60,10 +60,13 @@ The estimation error can be defined as
 ### Layer Transition
 Inspecting the estimation error, informations about layer ruptures can be found. As a matter of fact, neglecting modelling errors, disturbances and noise, the estimated force should reconstruct well the measured force unless an abrupt change happens: typically, this is due to a layer rupture. The decision function
 
-$$
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82727502-2e85f500-9ceb-11ea-84e5-80eb3259c685.png"> </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82727503-2f1e8b80-9ceb-11ea-9a72-f3c7fb8a52ff.png"> </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82727504-2f1e8b80-9ceb-11ea-92dd-7bc56e7874c3.png"> </p>
 
 is introduced. If
 
-$$
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82727505-2fb72200-9ceb-11ea-987b-68ab7386b857.png"> </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82725958-11e4bf80-9ce1-11ea-88eb-39ba58928179.png"> </p>
 
-then a layer ruptures is supposed to occur. The parameters $$ and $$ are the variance of the error function in the default and abrupt change case.
+then a layer ruptures is supposed to occur. The parameters <p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82725958-11e4bf80-9ce1-11ea-88eb-39ba58928179.png"> </p> and <p align="center"> <img src="https://user-images.githubusercontent.com/62264708/82725958-11e4bf80-9ce1-11ea-88eb-39ba58928179.png"> </p> are the variance of the error function in the default and abrupt change case.
