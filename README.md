@@ -74,3 +74,13 @@ then a layer ruptures is supposed to occur. The parameters <img src="https://use
 The main contribution of this work is an off-line method for identifying these variances based on a statistical analysis of the estimation error and its first-order time derivative.
 1. From the plot of the measured force, identify the number <img src="https://user-images.githubusercontent.com/62264708/82741191-0bd9f780-9d50-11ea-9c16-c376d8e43277.png"> of expected layer transitions. Notice that each transition introduces a peak in the error function (and therefore, two peaks in its derivative);
 2. Compute the local maxima of <img src="https://user-images.githubusercontent.com/62264708/82741192-0c728e00-9d50-11ea-9c31-f2cdcebb5788.png"> and sort them in decreasing order. Pick the <img src="https://user-images.githubusercontent.com/62264708/82741193-0c728e00-9d50-11ea-90c7-be7e7d3bbd17.png">-th one: because of the above reasoning, it should not depend on any abrupt event, but only on modelling errors, disturbances and noise. Denote the value of this peak with <img src="https://user-images.githubusercontent.com/62264708/82741194-0c728e00-9d50-11ea-8c01-ad60aa6335ab.png">.
+3. Divide the time in two disjoint sets, $$ and $$: the former will denote the times for which a puncturing event is expected to occur, the latter contains the others. For any abrupt event, denote with: $$ the first time instant for which $$ and $$ the last time instant for which $$. Finally
+$$
+$$
+4. Finally compute
+$$
+$$
+
+images
+
+## References
