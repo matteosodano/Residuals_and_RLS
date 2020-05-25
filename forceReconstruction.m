@@ -19,9 +19,10 @@ for t = 1:samples
    qd = QD(t, :)';
    qdd = QDD(t, :)';
    tau = TAU(t, :)'; 
-   tau_friction = [0;0;0;0;0;0;0];
    
+   tau_friction = [0;0;0;0;0;0;0];
    %tau_friction = getLWRTauFriction(qd);
+   
    TAU_FRICTION(t, :) = tau_friction;
    
    % computing B, S, g, J
