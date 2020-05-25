@@ -91,4 +91,6 @@ In the function ```layerDetection.m```, some initializations must be carried out
 
 
 ## References
+Mattone, R., & De Luca, A. (2003). "Fault detection and isolation in robot manipulators". *IFATIS, IRAR002R01.*
+
 Cacciotti, N., Cifonelli, A., Gaz, C., Paduano, V., Russo, A. V., Vendittelli, M. (2018). "Enhancing force feedback in teleoperated needle insertion through on-line identification of the needle-tissue interaction parameters". *IEEE RAS and EMBS International Conference on Biomedical Robotics and Biomechatronics (BIOROB).*
