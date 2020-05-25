@@ -85,7 +85,7 @@ The main contribution of this work is an off-line method for identifying these v
 ## Execution Requirements
 The ```main.m``` runs the residual method for estimating the estimation force and the RLS algorithm to predict layer transitions consequently. At first, it calls the script ```data.m```, that reads the data-set and the quantities that are necessary for the elaboration. The script is present as an example. The script ```datasets.m``` is not necessary for the elaboration, and is a collection of data-sets used during the project. 
 
-In the function ```forceReconstruction.m```, lines 22-24, there is the possibility of including the friction torque. You should uncomment only one of the two lines. If you are willing to use a different robot from the Kuka LWR IV+, the friction torque vector at line 24 must be computed externally.
+In the function ```forceReconstruction.m```, lines 23-24, there is the possibility of including the friction torque. You should uncomment only one of the two lines. If you are willing to use a different robot from the KUKA LWR IV+, the friction torque vector at line 24 must be computed externally.
 
 In the function ```layerDetection.m```, some initializations must be carried out. In particular, the covariance matrix is initialized at lines 15-17, and also its threshold for enabling the covariance resetting method. Parameters have been chosen with experience.
 
