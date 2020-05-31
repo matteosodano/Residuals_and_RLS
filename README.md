@@ -1,4 +1,9 @@
 # Needle-Tissue Interaction Force Estimation using Residuals and Interaction Models
+Developed by: M. Sodano, F. Roscia, G. Roggiolani (2020).
+
+Supervisor: prof. M. Vendittelli.
+
+
 The goal is to reconstruct the contact forces exerted on the needle mounted on the end-effector of a robot manipulator, in a sensorless fashion. This is been achieved considering that contact as a fault in the actuation system. The considered fault detection and isolation techniques are based on generalized momenta, which require proprioceptive sensors only. Then, a method for identifying rupture events is presented.
 Using the Recursive Least Squares (RLS) algorithm, the needle-tissue interaction force is estimated and the estimation error is analyzed to extract information about possible layer transitions.
 
